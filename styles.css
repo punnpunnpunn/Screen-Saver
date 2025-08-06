@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+button {
+    margin: auto;
+    display: block;
+    font-size: x-large;
+    border: none;
+    background-color: transparent;
+    &:hover {
+        cursor: pointer;
+        background-color: gray;
+    }
+}
+
+#canvas-container {
+    text-align: center;
+}
