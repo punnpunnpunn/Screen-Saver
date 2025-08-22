@@ -7,7 +7,6 @@ canvas {
 }
 
 button {
-    margin: auto;
     display: block;
     font-size: x-large;
     border: none;
@@ -16,6 +15,11 @@ button {
         cursor: pointer;
         background-color: gray;
     }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
 
 #canvas-container {
